@@ -5,6 +5,9 @@ description = ""
 authors = ["e.panin <fath34d@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
