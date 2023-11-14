@@ -10,7 +10,11 @@ brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.17.2"
 
 [build-system]
 requires = ["poetry-core"]
