@@ -12,6 +12,17 @@ files = [
 ]
 
 [[package]]
+name = "asciinema"
+version = "2.4.0"
+description = "Terminal session recorder"
+optional = false
+python-versions = "*"
+files = [
+    {file = "asciinema-2.4.0-py3-none-any.whl", hash = "sha256:249ccf108509d643ddaf38979dac48c99e9e251f597173d8553a30d7a6423104"},
+    {file = "asciinema-2.4.0.tar.gz", hash = "sha256:828e04c36ba622a7b8f8f912c8f0c1329538b6c7ed1c0d1b131bbbfe3a221707"},
+]
+
+[[package]]
 name = "asttokens"
 version = "2.4.1"
 description = "Annotate AST trees with source code positions"
@@ -350,4 +361,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "edde93fc199f0815d5293e25f51ec07a765997266a9cd0bb20a9a0a05a1f3843"
+content-hash = "3e12f24e55856c5a9698b8d4569a1f62a2ff05145d0f0e77d2a8fe2f0ce0269c"
